@@ -19,3 +19,8 @@ class UserOut(BaseModel):
     email: EmailStr
     role: UserRole
     created_at: datetime
+
+
+class Token(BaseModel):
+    access_token: str
+    token_type: str = "bearer"
