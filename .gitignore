@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node
+node_modules/
+.next/
+
+# Database and uploads (local only)
+*.db
+*.sqlite3
+uploads/
+
+# AI models and datasets (too large)
+*.pt
+*.onnx
+ai/datasets/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
