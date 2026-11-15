@@ -49,3 +49,11 @@ class ComplaintOut(BaseModel):
     citizen_id: int
     officer_id: int | None
     created_at: datetime
+    
+
+class AssignRequest(BaseModel):
+    officer_id: int
+
+
+class StatusUpdate(BaseModel):
+    status: ComplaintStatus
